@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import './fonts.scss';
+
+
+body {
+  font-family: 'DINNEXTLTARABIC-Regular';
+  line-height: 1.5;
+  direction: rtl;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

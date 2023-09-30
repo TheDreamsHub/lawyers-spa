@@ -1,0 +1,33 @@
+@font-face {
+    font-family: 'DINNEXTLTARABIC-Black';
+    src: url('/src/assets/fonts/DIN-BLACK.TTF') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'DINNEXTLTARABIC-Regular';
+    src: url('/src/assets/fonts/DINNEXTLTARABIC-REGULAR.TTF') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: 'DINNEXTLTARABIC-Bold';
+    src: url('/src/assets/fonts/DINNEXTLTARABIC-BOLD.TTF') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: 'DINNEXTLTARABIC-Light';
+    src: url('/src/assets/fonts/DINNEXTLTARABIC-LIGHT.TTF') format('truetype');
+    font-weight: lighter;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  $bold-font: 'DINNEXTLTARABIC-Bold';
+  $regular-font: 'DINNEXTLTARABIC-Regular';
+  $light-font: 'DINNEXTLTARABIC-Light';
+  
