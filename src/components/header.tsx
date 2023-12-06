@@ -9,8 +9,8 @@ export default function Header() {
 
     console.log(pathname);
 
-    return( <div className='bg-[#321609] flex w-full mx-auto items-center h-16 px-16'>
-    <img src={logo} alt='logo' />
+    return( <div className='bg-[#321609] flex w-full mx-auto items-center h-16 pr-4'>
+    <img src={logo} alt='logo'  className='h-10'/>
 
 
       <div className='flex gap-7 text-[#A47762] mx-7'>
